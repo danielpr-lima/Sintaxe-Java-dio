@@ -1,0 +1,102 @@
+Lista Completa das Palavras Reservadas
+
+Categoria                     | Palavras Reservadas
+------------------------------------------------------------
+Tipos de Dados               | byte, short, int, long, float, double, char, boolean, void
+Controle de Fluxo            | if, else, switch, case, default, while, do, for, break, continue, return
+Modificadores de Acesso      | public, private, protected
+Modificadores de Classes     | static, final, abstract, synchronized, transient, volatile, native, strictfp
+Tratamento de Exceções       | try, catch, finally, throw, throws
+Orientação a Objetos         | class, interface, extends, implements, new, this, super, instanceof
+Controle de Pacotes          | package, import
+Especiais                    | true, false, null
+Não Utilizadas               | const, goto
+
+=== Palavras Reservadas em Java ===
+
+1. Tipos de Dados:
+   - byte, short, int, long: Tipos numéricos inteiros.
+   - float, double: Tipos numéricos decimais.
+   - char: Tipo para caracteres.
+   - boolean: Tipo para true/false.
+   - void: Método sem retorno.
+
+2. Controle de Fluxo:
+   - if, else: Condicionais.
+   - switch, case, default: Decisão múltipla.
+   - while, do, for: Loops.
+   - break: Interrompe loops/switch.
+   - continue: Pula iteração.
+   - return: Retorna valor ou encerra método.
+
+3. Modificadores de Acesso:
+   - public: Acesso livre.
+   - private: Acesso restrito à classe.
+   - protected: Acesso à classe, subclasses e mesmo pacote.
+
+4. Modificadores de Classes/Métodos/Variáveis:
+   - static: Pertence à classe.
+   - final: Não pode ser alterado/herdado.
+   - abstract: Não pode ser instanciado/implementado diretamente.
+   - synchronized: Controle de concorrência.
+   - transient: Não serializado.
+   - volatile: Visibilidade em threads.
+   - native: Método em código nativo.
+   - strictfp: Precisão em cálculos.
+
+5. Tratamento de Exceções:
+   - try, catch, finally: Captura e tratamento de exceções.
+   - throw: Lança exceção.
+   - throws: Declara exceções possíveis.
+
+6. Orientação a Objetos:
+   - class: Define uma classe.
+   - interface: Define uma interface.
+   - extends: Herança.
+   - implements: Implementação de interface.
+   - new: Cria instância.
+   - this: Refere-se à instância atual.
+   - super: Refere-se à superclasse.
+   - instanceof: Verifica tipo de objeto.
+
+7. Controle de Pacotes:
+   - package: Define o pacote.
+   - import: Importa classes/pacotes.
+
+8. Especiais:
+   - true, false: Valores booleanos.
+   - null: Ausência de valor.
+
+9. Não Utilizadas:
+   - const, goto: Reservadas, mas não usadas.
+
+   Uso               | Palavra(s)                          | Observação
+----------------------------------------------------------------------------------------
+Tipos de Dados    | byte, short, int, long, float,       | Definir tipos de variáveis.
+                  | double, char, boolean, void          | `void` é usado em métodos sem retorno.
+
+Controle de Fluxo | if, else, switch, case, default,     | Controlar fluxo do programa.
+                  | while, do, for, break, continue,     | `break` e `continue` atuam em loops.
+                  | return                               | `return` encerra métodos.
+
+Modificadores de  | public, private, protected           | Controlar acesso a classes, métodos
+Acesso            |                                      | e variáveis.
+
+Modificadores de  | static, final, abstract,             | Modificar comportamento de classes,
+Classes/Métodos/  | synchronized, transient, volatile,   | métodos ou variáveis. `static` pertence
+Variáveis         | native, strictfp                     | à classe, `final` impede alteração.
+
+Tratamento de     | try, catch, finally, throw, throws   | Capturar e tratar exceções.
+Exceções          |                                      | `finally` sempre executa.
+
+Orientação a      | class, interface, extends,           | Definir classes, interfaces, herança,
+Objetos           | implements, new, this, super,        | e relacionamentos entre objetos.
+                  | instanceof                           | `new` cria objetos.
+
+Controle de       | package, import                      | Organizar classes em pacotes e
+Pacotes           |                                      | importar dependências.
+
+Especiais         | true, false, null                    | Valores literais. `null` indica ausência
+                  |                                      | de valor.
+
+Não Utilizadas    | const, goto                          | Reservadas, mas não usadas em Java.
