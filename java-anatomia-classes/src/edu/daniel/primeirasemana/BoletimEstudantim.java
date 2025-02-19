@@ -1,3 +1,4 @@
+package edu.daniel.primeirasemana;
 public class BoletimEstudantim {
     public static void main(String[] args){
         // lesson four

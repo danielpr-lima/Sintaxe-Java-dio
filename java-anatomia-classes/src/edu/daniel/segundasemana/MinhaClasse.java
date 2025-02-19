@@ -1,3 +1,4 @@
+package edu.daniel.segundasemana;
 public class MinhaClasse {
 
     public static void main(String[] args) {
@@ -6,8 +7,8 @@ public class MinhaClasse {
 
         //lesson two
         // essa variavel não pode ser alterada e deve ser escrita de forma maiuscula
-        final String BR = "Brasil";
-        final Double PI = 3.14;
+        // final String BR = "Brasil";
+        // final Double PI = 3.14;
 
         String primeiroNome ="Daniel";
         String segundoNome = "Lima";
