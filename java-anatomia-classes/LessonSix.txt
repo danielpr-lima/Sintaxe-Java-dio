@@ -1,0 +1,16 @@
+Ele explica de qual forma se deve declarar um variavel
+    -ela tem que ser intuitiva ao ler ja saber o que é
+        -não declarar em plural ao não ser que seja um array
+        -defenir um unico idioma para a declaração das mesmas
+
+Também é explicado sobre metodos 
+    -deveram ser nomeados como verbos no infinitivos
+    -a primeira letra da primeira palavra minuscula e as demais com maiuscula
+        -isso permite uma leitura mais facil do metodo
+    -ele deve ter uma unica finalidade 
+        -calcularImprimir
+            -esse metodo demostra que tem duas o que não é uma boa pratica
+    - em resumo ele tem que ter uma respondabilidade unica
+        -CalcularSoma
+        -ImprimirResultado
+
