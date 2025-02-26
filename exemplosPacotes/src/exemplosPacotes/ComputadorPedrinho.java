@@ -21,6 +21,9 @@ public class ComputadorPedrinho {
 		else if(appEscolhido.equals("tlg"))
 			smi = new Telegram();
 		
+		smi.enviarMensagem();
+		smi.receberMensagem();
+		
 	}
 
 }
